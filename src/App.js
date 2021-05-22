@@ -114,7 +114,6 @@ class App extends Component
               onChange = {this.captureFile}
             />
              <Button 
-             bsStyle="primary" 
              type="submit"> 
              Submit 
              </Button>

@@ -1,5 +1,5 @@
-//0xb84b12e953f5bcf01b05f926728e855f2d4a67a9  contract address on rinkeby
 //deployed using remix 
+// https://rinkeby.etherscan.io/address/0xb4dd0d41b754614be4895a5840db4e2f5564aa03#code
 pragma solidity 0.4.24;
 
 contract Contract {
