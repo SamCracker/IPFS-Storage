@@ -122,7 +122,7 @@ class App extends Component
           <br></br>
           <div className="center">
             <Card className="card">
-              <img src={`https:ipfs.io/ipfs/${this.state.ipfsHash}`} alt={"IPFS"} onError={(e)=>{e.target.onerror=null; e.target.src=this.state.altImage}} />
+              <img src={`https://ipfs.io/ipfs/${this.state.ipfsHash}`} alt={"IPFS"} onError={(e)=>{e.target.onerror=null; e.target.src=this.state.altImage}} />
             </Card>
           </div>
           <hr/>
