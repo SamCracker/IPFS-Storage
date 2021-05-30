@@ -1,7 +1,7 @@
 import {Table, Button, Form } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import web3 from './web3';
 import ipfs from './ipfs';
