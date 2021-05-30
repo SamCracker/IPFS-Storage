@@ -17,7 +17,8 @@ class App extends Component
       blockNumber:'',
       transactionHash:'',
       gasUsed:'',
-      txReceipt: ''   
+      txReceipt: '' ,
+      altImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png" 
     };
    
     captureFile =(event) => 
@@ -121,7 +122,7 @@ class App extends Component
           <br></br>
           <div className="center">
             <Card className="card">
-              <img src={`https:ipfs.io/ipfs/${this.state.ipfsHash}`} alt="IPFS" onError={(e)=>{e.target.onerror=null; e.target.src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png"}} />
+              <img src={`https:ipfs.io/ipfs/${this.state.ipfsHash}`} alt={"IPFS"} onError={(e)=>{e.target.onerror=null; e.target.src=this.state.altImage}} />
             </Card>
           </div>
           <hr/>
