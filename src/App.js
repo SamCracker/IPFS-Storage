@@ -118,9 +118,12 @@ class App extends Component
              Submit 
              </Button>
           </Form>
-
-          <img src={`https:ipfs.io/ipfs/${this.state.ipfsHash}`} alt=""/>
-
+          <br></br>
+          <div className="center">
+            <Card className="card">
+              <img src={`https:ipfs.io/ipfs/${this.state.ipfsHash}`} alt="IPFS" onError={(e)=>{e.target.onerror=null; e.target.src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png"}} />
+            </Card>
+          </div>
           <hr/>
             <Button onClick = {this.onClick}> Get Transaction Receipt </Button>
 
